@@ -1,0 +1,29 @@
+
+.moviecard_box {
+    width: 180px;
+
+    &:last-child {
+        padding-right: 20px;
+    }
+    &:first-child {
+        padding-left: 20px;
+    }
+
+    .movie_img {
+        width: 180px;
+        height: 240px;
+        border-radius: 10px;
+    }
+
+    .movie_name {
+        font-size: 26px;
+    }
+
+    .movie_rate {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 24px;
+    }
+}
